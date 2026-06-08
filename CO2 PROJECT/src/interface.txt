@@ -1,0 +1,11 @@
+interface Product {
+  id: number;
+  title: string;
+  price: number;
+  category: string;
+}
+
+interface CartItem {
+  product: Product;
+  quantity: number;
+}
